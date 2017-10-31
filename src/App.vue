@@ -1,23 +1,32 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+  <main class="wrapper" id="app">
+    <about-section/>
+    <skills-section/>
+    <projects-section/>
+    <contact-section/>
+  </main>
 </template>
 
 <script>
+import AboutSection from '@/sections/AboutSection'
+import SkillsSection from '@/sections/SkillsSection'
+import ProjectsSection from '@/sections/ProjectsSection'
+import ContactSection from '@/sections/ContactSection'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    AboutSection,
+    SkillsSection,
+    ProjectsSection,
+    ContactSection
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.wrapper>.container {
+  padding-bottom: .5rem;
+  padding-top: 7.5rem;
 }
 </style>
