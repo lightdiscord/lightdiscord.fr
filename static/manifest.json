@@ -1,0 +1,31 @@
+{
+  "short_name": "Chez, Light",
+  "name": "@LightDiscord",
+  "background_color": "#FFFFFF",
+  "theme_color": "#212121",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/static/images/lightdiscord_launcher/res/mipmap-mdpi/lightdiscord_launcher.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/static/images/lightdiscord_launcher/res/mipmap-xhdpi/lightdiscord_launcher.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/images/lightdiscord_launcher/res/mipmap-xxxhdpi/lightdiscord_launcher.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/images/lightdiscord_launcher/web_hi_res_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

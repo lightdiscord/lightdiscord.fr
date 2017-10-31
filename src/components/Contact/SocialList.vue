@@ -1,6 +1,6 @@
 <template>
 <ul>
-  <li v-for="network in social"><a :href="network.url" target="_blank">{{ network.name }}</a></li>
+  <li v-for="network in social"><a :href="network.url" target="_blank" rel="noopener">{{ network.name }}</a></li>
 </ul>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
 <ul>
   <li v-for="project in projects">
-    <a :href="project.url" target="_blank">{{ project.name }}</a>
-    <span v-if="project.organization">(<a target="_blank" :href="project.organization.url">@{{ project.organization.name }}</a>)</span>
+    <a :href="project.url" target="_blank" rel="noopener">{{ project.name }}</a>
+    <span v-if="project.organization">(<a target="_blank" rel="noopener" :href="project.organization.url">@{{ project.organization.name }}</a>)</span>
   </li>
 </ul>
 </template>

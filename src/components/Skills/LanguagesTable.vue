@@ -82,7 +82,7 @@ export default {
   },
   methods: {
     libraries (language) {
-      return language.libs ? language.libs.map(lib => Array.isArray(lib) ? `<a target="_blank" href="${lib[1]}">${lib[0]}</a>` : lib).join(', ') : ''
+      return language.libs ? language.libs.map(lib => Array.isArray(lib) ? `<a target="_blank" rel="noopener" href="${lib[1]}">${lib[0]}</a>` : lib).join(', ') : ''
     }
   }
 }
